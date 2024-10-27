@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinaria</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Menú de navegación fijo -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#inicio">Clínica Veterinaria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#equipo">Nuestro Equipo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sección Inicio -->
+<section id="inicio" class="text-center py-5">
+    <h1>Bienvenidos a la Clínica Veterinaria</h1>
+    <p>Cuidando a tus mascotas como parte de nuestra familia.</p>
+    <img src="path/to/image.jpg" alt="Veterinaria" class="img-fluid">
+    <button class="btn btn-primary mt-3">Conócenos</button>
+</section>
+
+<!-- Sección Servicios -->
+<section id="servicios" class="container py-5">
+    <h2 class="text-center">Nuestros Servicios</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="path/to/service1.jpg" alt="Servicio 1" class="img-fluid">
+            <h4>Consulta General</h4>
+            <p>Atención médica general para tus mascotas.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="path/to/service2.jpg" alt="Servicio 2" class="img-fluid">
+            <h4>Vacunación</h4>
+            <p>Vacunas para proteger la salud de tus mascotas.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="path/to/service3.jpg" alt="Servicio 3" class="img-fluid">
+            <h4>Cirugía</h4>
+            <p>Servicios quirúrgicos realizados por expertos.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Nuestro Equipo -->
+<section id="equipo" class="text-center py-5 bg-light">
+    <h2>Conoce a Nuestro Equipo</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="path/to/veterinarian1.jpg" alt="Veterinario 1" class="rounded-circle">
+            <h5>Dr. Juan Pérez</h5>
+            <p>Especialista en pequeñas especies</p>
+        </div>
+        <div class="col-md-4">
+            <img src="path/to/veterinarian2.jpg" alt="Veterinario 2" class="rounded-circle">
+            <h5>Dra. Laura Gómez</h5>
+            <p>Especialista en cirugía veterinaria</p>
+        </div>
+        <div class="col-md-4">
+            <img src="path/to/veterinarian3.jpg" alt="Veterinario 3" class="rounded-circle">
+            <h5>Dr. Carlos Medina</h5>
+            <p>Especialista en comportamiento animal</p>
+        </div>
+    </div>
+</section>
+
+<!-- Tarjeta de contacto -->
+<section class="contact-card text-center py-3">
+    <h3>Contáctanos</h3>
+    <p class="contact-phone">📞 (123) 456-7890</p>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contacto" class="text-center py-5">
+    <h2>Contáctanos</h2>
+    <form class="container">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <p>WhatsApp: +1 234 567 890</p>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 bg-dark text-white">
+    <p>Síguenos en nuestras redes sociales</p>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
